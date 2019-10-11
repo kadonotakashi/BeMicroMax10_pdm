@@ -1,0 +1,54 @@
+	component nios is
+		port (
+			amwr_address      : in    std_logic_vector(31 downto 0) := (others => 'X'); -- address
+			amwr_byteenable   : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- byteenable
+			amwr_write        : in    std_logic                     := 'X';             -- write
+			amwr_writedata    : in    std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			amwr_waitrequest  : out   std_logic;                                        -- waitrequest
+			amwr_burstcount   : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- burstcount
+			as_pdm_address    : out   std_logic_vector(9 downto 0);                     -- address
+			as_pdm_read       : out   std_logic;                                        -- read
+			as_pdm_readdata   : in    std_logic_vector(31 downto 0) := (others => 'X'); -- readdata
+			as_pdm_write      : out   std_logic;                                        -- write
+			as_pdm_writedata  : out   std_logic_vector(31 downto 0);                    -- writedata
+			as_pdm_byteenable : out   std_logic_vector(3 downto 0);                     -- byteenable
+			as_pdm_chipselect : out   std_logic;                                        -- chipselect
+			button_export     : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- export
+			clk_clk           : in    std_logic                     := 'X';             -- clk
+			deb_export        : out   std_logic_vector(7 downto 0);                     -- export
+			ftdi_rdn          : out   std_logic;                                        -- rdn
+			ftdi_resetn       : out   std_logic;                                        -- resetn
+			ftdi_rxdata       : in    std_logic_vector(7 downto 0)  := (others => 'X'); -- rxdata
+			ftdi_rxfn         : in    std_logic                     := 'X';             -- rxfn
+			ftdi_txdata       : out   std_logic_vector(7 downto 0);                     -- txdata
+			ftdi_txdata_oe    : out   std_logic;                                        -- txdata_oe
+			ftdi_txen         : in    std_logic                     := 'X';             -- txen
+			ftdi_wr           : out   std_logic;                                        -- wr
+			lcd_cs            : out   std_logic;                                        -- cs
+			lcd_dc            : out   std_logic;                                        -- dc
+			lcd_rstn          : out   std_logic;                                        -- rstn
+			lcd_sclk          : out   std_logic;                                        -- sclk
+			lcd_sdata         : out   std_logic;                                        -- sdata
+			led_export        : out   std_logic_vector(7 downto 0);                     -- export
+			log_clk           : out   std_logic;                                        -- clk
+			pdm_clk           : out   std_logic;                                        -- clk
+			pll_lock_export   : out   std_logic;                                        -- export
+			reset_reset_n     : in    std_logic                     := 'X';             -- reset_n
+			sd_clk            : out   std_logic;                                        -- clk
+			sdram_addr        : out   std_logic_vector(11 downto 0);                    -- addr
+			sdram_ba          : out   std_logic_vector(1 downto 0);                     -- ba
+			sdram_cas_n       : out   std_logic;                                        -- cas_n
+			sdram_cke         : out   std_logic;                                        -- cke
+			sdram_cs_n        : out   std_logic;                                        -- cs_n
+			sdram_dq          : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+			sdram_dqm         : out   std_logic_vector(1 downto 0);                     -- dqm
+			sdram_ras_n       : out   std_logic;                                        -- ras_n
+			sdram_we_n        : out   std_logic;                                        -- we_n
+			sflash_dclk       : out   std_logic;                                        -- dclk
+			sflash_sce        : out   std_logic;                                        -- sce
+			sflash_sdo        : out   std_logic;                                        -- sdo
+			sflash_data0      : in    std_logic                     := 'X';             -- data0
+			sys_clk           : out   std_logic                                         -- clk
+		);
+	end component nios;
+

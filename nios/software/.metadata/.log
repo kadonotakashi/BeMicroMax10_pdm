@@ -1,0 +1,867 @@
+!SESSION 2019-06-27 08:33:54.972 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-27 08:34:14.106
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-06-27 08:35:49.282
+!MESSAGE Indexed 'pdm_4ch_bsp' (84 sources, 149 headers) in 1.38 sec: 5,169 declarations; 8,837 references; 64 unresolved inclusions; 3 syntax errors; 128 unresolved names (0.91%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-06-27 08:35:49.736
+!MESSAGE Indexed 'pdm_4ch' (1 sources, 0 headers) in 0.005 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 4 4 2019-06-27 08:44:47.614
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@4809c771)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@125490ea)}
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 08:49:07.148
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x49534e53 --timestamp=1560747531 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 08:49:10.742
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x49534e53 --timestamp=1560747531]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2019-06-27 08:53:54.573
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 08:53:59.693
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x49534e53 --timestamp=1560747531 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 08:54:03.247
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x49534e53 --timestamp=1560747531]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 09:05:10.397
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x49534e53 --timestamp=1560747531 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 09:05:13.918
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x49534e53 --timestamp=1560747531]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 10:01:06.937
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0x384d4450", expected: "0x49534e53". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 10:01:06.943
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0x384d4450", expected: "0x49534e53". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 10:01:29.044
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0x384d4450", expected: "0x49534e53". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 10:01:29.048
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System ID mismatch - connected: "0x384d4450", expected: "0x49534e53". 
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:607)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:01:56.313
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:01:59.821
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:06:44.787
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:06:48.323
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-06-27 10:13:50.660
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:120)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:71)
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:311)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.getGDBVersion(GdbLaunchDelegate.java:312)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:154)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:14:09.660
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:14:13.226
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:16:50.276
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:16:53.819
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:18:21.255
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:18:24.779
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:21:23.805
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:21:27.358
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:22:51.265
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:22:54.786
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:24:50.371
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:24:53.872
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:26:17.080
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:26:20.651
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-06-27 10:28:04.126
+!MESSAGE An internal error occurred during: "Add Memory Block".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.icu.text.MessagePattern.parseMessage(MessagePattern.java:934)
+	at com.ibm.icu.text.MessagePattern.parse(MessagePattern.java:183)
+	at com.ibm.icu.text.MessagePattern.<init>(MessagePattern.java:168)
+	at com.ibm.icu.text.MessageFormat.applyPattern(MessageFormat.java:453)
+	at com.ibm.icu.text.MessageFormat.<init>(MessageFormat.java:351)
+	at com.ibm.icu.text.MessageFormat.format(MessageFormat.java:997)
+	at org.eclipse.cdt.debug.internal.core.CMemoryBlockRetrievalExtension.getMemoryBlock(CMemoryBlockRetrievalExtension.java:287)
+	at org.eclipse.cdt.debug.internal.core.CMemoryBlockRetrievalExtension.getExtendedMemoryBlock(CMemoryBlockRetrievalExtension.java:226)
+	at org.eclipse.debug.internal.ui.views.memory.AddMemoryBlockAction.addMemoryBlocks(AddMemoryBlockAction.java:197)
+	at org.eclipse.debug.internal.ui.views.memory.AddMemoryBlockAction.access$0(AddMemoryBlockAction.java:187)
+	at org.eclipse.debug.internal.ui.views.memory.AddMemoryBlockAction$1.run(AddMemoryBlockAction.java:170)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:36:40.489
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:36:44.018
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:38:03.434
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:38:09.637
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:46:08.765
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:46:12.387
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2019-06-27 10:47:10.068
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:47:16.501
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:47:20.003
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:50:46.314
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:50:49.837
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:54:44.173
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 10:54:47.693
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:07:50.161
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:07:53.698
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-06-27 11:09:02.892
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:120)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:71)
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:311)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.getGDBVersion(GdbLaunchDelegate.java:312)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:154)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:09:28.262
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:09:31.765
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.launch 4 0 2019-06-27 11:09:31.812
+!MESSAGE Error starting gdbserver - see console for details
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 11:09:38.232
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 11:09:38.233
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 11:12:22.377
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2019-06-27 11:12:22.381
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-06-27 11:14:21.232 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-06-27 11:14:28.162
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:15:15.364
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:15:18.900
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-27 11:27:54.314
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:34:35.834
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:34:38.368
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:34:41.852
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:50:56.380
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:50:59.904
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:54:35.167
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 11:54:38.654
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:04:05.314
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:04:08.842
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:10:27.772
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:10:31.409
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:12:28.757
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:12:29.956
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:12:33.633
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:25:59.346
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:26:03.056
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:28:07.564
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:28:11.225
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:29:25.644
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:29:29.327
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:32:50.251
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:32:53.946
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:34:31.474
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:34:35.110
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:36:56.927
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:37:00.595
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:39:51.292
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:39:53.718
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:39:57.400
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:41:24.266
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:41:27.935
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:43:27.631
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:43:31.294
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:45:19.859
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 12:45:23.524
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-06-27 12:52:49.525
+!MESSAGE Indexed 'pdm_4ch' (23 sources, 82 headers) in 0.687 sec: 4,703 declarations; 10,801 references; 0 unresolved inclusions; 360 syntax errors; 283 unresolved names (1.8%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 13:08:20.383
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 13:08:24.096
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 13:23:08.188
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 13:23:11.880
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 13:24:04.214
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 13:24:07.909
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2019-06-27 13:36:08.118
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:29:00.950
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:29:04.705
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:35:11.020
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:35:14.745
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.ui 4 4 2019-06-27 14:38:26.556
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@550d59f)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@65e05005)}
+
+!ENTRY org.eclipse.ui 4 4 2019-06-27 14:40:24.294
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@57e0ab3d)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@65e05005)}
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:43:37.824
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:43:42.155
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:43:45.841
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:49:34.669
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:49:48.107
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:49:51.814
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:50:00.727
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:50:03.043
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:50:06.727
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:51:03.281
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:51:04.399
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:51:08.067
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:51:43.221
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 4 2019-06-27 14:52:05.960
+!MESSAGE Target request failed: Failed to interrupt.
+!STACK 1
+org.eclipse.debug.core.DebugException: Target request failed: Failed to interrupt.
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:259)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.cleanupExistingLaunches(AbstractNios2CLaunchDelegate.java:249)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.handleMultipleLaunches(AbstractNios2CLaunchDelegate.java:213)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.initialize(AbstractNios2CLaunchDelegate.java:176)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:90)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.cdt.debug.core 4 5010 2019-06-27 14:52:05.960
+!MESSAGE Target request failed: Failed to interrupt.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-06-27 14:52:06.376
+!MESSAGE An internal error occurred during: "Launching pdm_4ch".
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:100)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:52:19.651
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 14:52:23.337
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 15:39:38.414
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 15:39:42.129
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+!SESSION 2019-06-27 16:18:36.505 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-27 16:19:03.510
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 16:19:30.899
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-27 16:19:34.604
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2019-06-27 16:22:44.804
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+!SESSION 2019-06-28 08:32:00.765 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-06-28 08:32:15.958
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-28 08:32:26.705
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 08:34:24.856
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 08:34:28.694
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2019-06-28 08:39:40.921
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 08:40:01.801
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 08:40:05.659
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 08:53:53.050
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 08:53:56.965
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 09:03:44.408
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 09:03:48.266
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 09:18:57.942
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 09:19:01.911
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 09:30:01.195
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 09:30:05.115
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 10:00:30.950
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 10:00:35.376
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 10:03:11.668
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 10:03:15.894
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 11:14:08.763
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 11:14:12.620
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 12:01:43.938
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-06-28 12:01:47.690
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
+!SESSION 2019-07-24 11:37:05.928 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-07-24 11:37:25.676
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-07-24 11:37:27.637
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-09-05 17:10:54.744 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-05 17:11:06.782
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-09-05 17:11:10.066
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2019-09-09 08:32:49.617 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-09 08:32:58.674
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-09-09 08:33:00.944
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2019-10-11 09:14:12.062 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-11 09:14:33.834
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\13539.GLORY'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-10-11 09:14:37.671
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-10-11 09:15:23.793
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935 /cygdrive/d/FPGA/software/pdm/pdm_4ch/pdm_4ch.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2019-10-11 09:15:27.731
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x1000 --id=0x384d4450 --timestamp=1561594935]
